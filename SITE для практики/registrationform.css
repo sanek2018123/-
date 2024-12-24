@@ -1,0 +1,128 @@
+@font-face {
+    font-family: Alegreya;
+    font-weight: 600;
+    font-style: normal;
+    src: local("Alegreya"),
+        url(fonts/Alegreya-Medium.woff2) format('woff2');
+    font-display: swap;
+}
+@font-face {
+    font-family: Alegreya;
+    font-weight: 400;
+    font-style: normal;
+    src: local("Alegreya"),
+        url(fonts/Alegreya-Italic.woff2) format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Alegreya;
+    font-weight: 700;
+    font-style: normal;
+    src: local("Alegreya"),
+        url(/fonts/Alegreya-Bold.woff2) format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Alegreya;
+    font-weight: 500;
+    font-style: normal;
+    src: local("Alegreya"),
+        url(/fonts/Alegreya-Regular.woff2) format('woff2');
+    font-display: swap;
+}
+html, body {
+    margin:0;
+    font-family: Alegreya, sans-serif;
+}
+
+a { 
+    text-decoration: none;
+    font-family: Alegreya, sans-serif;
+   }
+.wrapper {
+    display:flex;
+    justify-content: center;
+}
+.login_box {
+    background-color: white;
+    box-shadow: 0px 5px 17px 0px #CDD1CA;
+    width: 700px;
+    height: 700px;
+    border-radius: 50px;
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+}
+.Login_title {
+    display: flex;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.login_box_forms {
+    display: flex;
+    flex-direction: column;
+    margin-left:50px;
+    margin-top:40px;
+    gap: 30px;
+}
+.login_box_forms_email {
+    display: flex;
+    flex-direction: column;
+}
+.login_box_forms_password {
+    display: flex;
+    flex-direction: column;
+}
+.login_box_forms_email_text {
+    display: flex;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+}
+.login_box_forms_password_text {
+    display: flex;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+}
+.login_box_forms_email_input {
+    width: 600px;
+    height: 40px;
+    border-radius: 20px;
+}
+.login_box_forms_password_input {
+    width: 600px;
+    height: 40px;
+    border-radius: 20px;
+}
+.login_button {
+    width: 610px;
+    height: 50px;
+    background-color: rgb(255, 196, 0);
+    border: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.login_button_text {
+    display: flex;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+}
+.forgot_pass_text {
+    display: flex;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    color: rgb(255, 196, 0);
+    margin-left:50px;
+    margin-top:40px;
+}
